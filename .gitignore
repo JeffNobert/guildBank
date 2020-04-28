@@ -10,3 +10,5 @@ package-lock.json
 create_db.sql
 
 README 2.md
+
+node_modules/
