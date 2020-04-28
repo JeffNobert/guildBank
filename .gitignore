@@ -1,0 +1,12 @@
+
+.env
+
+.DS_Store
+
+*.db
+
+package-lock.json
+
+create_db.sql
+
+README 2.md

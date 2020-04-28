@@ -1,0 +1,26 @@
+{
+  "name": "guildbank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "better-sqlite3": "^5.4.3",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "js-base64": "^2.5.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "xml2js": "^0.4.22"
+  }
+}
