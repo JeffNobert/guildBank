@@ -4,8 +4,8 @@ const query =  `select chars.name, items.en, sum(inv.qty) as qty
                 join items on inv.item_id = items.id 
                 join chars on inv.char_id = chars.id
                 where chars.name like ?
-                group by chars.name, item_id 
-                order by chars.name, item.en;`
+                group by item_id 
+                order by chars.name, items.en;`
 
 const inventory = (args, message, db) => {
     char = '%'
