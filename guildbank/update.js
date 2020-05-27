@@ -102,6 +102,7 @@ const update_item_names = async (db) => {
     }
     [charname, ...items] = parse(code)
     charname = charname.split(',')[0]
+    gold = charname.split(',')[1]
     char = select_or_insert_char(charname, db)
     
     //sum qty for grouped item.ids
